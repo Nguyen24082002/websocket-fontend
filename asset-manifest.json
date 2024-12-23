@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/websocket-fontend/static/css/main.38fdc94e.css",
+    "main.js": "/websocket-fontend/static/js/main.49ea52d3.js",
+    "static/media/robot.gif": "/websocket-fontend/static/media/robot.0617a41936621e9697cd.gif",
+    "static/media/loader.gif": "/websocket-fontend/static/media/loader.949f4fbdc6f959de7778.gif",
+    "static/media/logo.svg": "/websocket-fontend/static/media/logo.adee6ba31fd75c10f1e282c2bdee9ea5.svg",
+    "index.html": "/websocket-fontend/index.html",
+    "main.38fdc94e.css.map": "/websocket-fontend/static/css/main.38fdc94e.css.map",
+    "main.49ea52d3.js.map": "/websocket-fontend/static/js/main.49ea52d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38fdc94e.css",
+    "static/js/main.49ea52d3.js"
+  ]
+}
