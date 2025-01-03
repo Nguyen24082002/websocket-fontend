@@ -140,11 +140,11 @@ const Container = styled.div`
       }
     }
     .selected {
-      border: 0.4rem solid #4e0eff;
+      border: 0.4rem solidrgb(255, 14, 135);
     }
   }
   .submit-btn {
-    background-color: #4e0eff;
+    background-color:solidrgb(255, 14, 135);
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -154,7 +154,7 @@ const Container = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color: solidrgb(255, 14, 135);
     }
   }
 `;

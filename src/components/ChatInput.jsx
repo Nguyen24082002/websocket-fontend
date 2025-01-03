@@ -74,13 +74,13 @@ const Container = styled.div`
         position: absolute;
         top: -350px;
         background-color: #080420;
-        box-shadow: 0 5px 10px #9a86f3;
-        border-color: #9a86f3;
+        box-shadow: 0 5px 10pxrgb(136, 134, 243);
+        border-color:rgb(240, 79, 205);
         .emoji-scroll-wrapper::-webkit-scrollbar {
           background-color: #080420;
           width: 5px;
           &-thumb {
-            background-color: #9a86f3;
+            background-color:rgb(228, 59, 205);
           }
         }
         .emoji-categories {
@@ -90,10 +90,10 @@ const Container = styled.div`
         }
         .emoji-search {
           background-color: transparent;
-          border-color: #9a86f3;
+          border-color:rgb(238, 66, 195);
         }
         .emoji-group:before {
-          background-color: #080420;
+          background-color:rgb(231, 63, 161);
         }
       }
     }
@@ -115,7 +115,7 @@ const Container = styled.div`
       font-size: 1.2rem;
 
       &::selection {
-        background-color: #9a86f3;
+        background-color:rgb(243, 134, 188);
       }
       &:focus {
         outline: none;
@@ -127,7 +127,7 @@ const Container = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #9a86f3;
+      background-color:rgb(243, 134, 201);
       border: none;
       @media screen and (min-width: 720px) and (max-width: 1080px) {
         padding: 0.3rem 1rem;

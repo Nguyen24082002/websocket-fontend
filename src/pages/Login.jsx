@@ -127,18 +127,18 @@ const FormContainer = styled.div`
   input {
     background-color: transparent;
     padding: 1rem;
-    border: 0.1rem solid #4e0eff;
+    border: 0.1rem solidrgb(38, 37, 43);
     border-radius: 0.4rem;
     color: white;
     width: 100%;
     font-size: 1rem;
     &:focus {
-      border: 0.1rem solid #997af0;
+      border: 0.1rem solidrgb(44, 69, 214);
       outline: none;
     }
   }
   button {
-    background-color: #4e0eff;
+    background-color:rgb(89, 45, 129);
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -148,14 +148,14 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color:rgba(101, 29, 168, 0.59);
     }
   }
   span {
     color: white;
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color:rgb(130, 38, 184);
       text-decoration: none;
       font-weight: bold;
     }

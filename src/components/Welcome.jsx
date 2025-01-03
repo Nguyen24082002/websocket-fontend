@@ -16,7 +16,7 @@ export default function Welcome() {
       <h1>
         Welcome, <span>{userName}!</span>
       </h1>
-      <h3>Please select a chat to Start messaging.</h3>
+      
     </Container>
   );
 }
@@ -28,9 +28,9 @@ const Container = styled.div`
   color: white;
   flex-direction: column;
   img {
-    height: 20rem;
+    height: 30rem;
   }
   span {
-    color: #4e0eff;
+    color:rgb(81, 40, 194);
   }
 `;
